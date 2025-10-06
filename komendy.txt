@@ -1,0 +1,14 @@
+npm install --save-dev html-validate
+
+Sposób na jej wywołanie 
+
+npx html-validate index.html   (zalecana nowsza wersja Noda 20.19.0 w góre) 
+albo obejście 
+
+NODE_OPTIONS="--experimental-import-meta-resolve"
+
+
+Either ensure you are running a supported NodeJS version:
+  Current:  v18.18.2
+  Required: v20.19.0, v22.12.0 or later
+Or set NODE_OPTIONS="--experimental-import-meta-resolve"
